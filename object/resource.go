@@ -19,7 +19,7 @@ import (
 	"strings"
 
 	"github.com/casdoor/casdoor/util"
-	"github.com/xorm-io/core"
+	"xorm.io/core"
 )
 
 type Resource struct {

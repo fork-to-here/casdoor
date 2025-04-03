@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/casdoor/casdoor/util"
-	"github.com/xorm-io/core"
+	"xorm.io/core"
 )
 
 func updateUserColumn(column string, user *User) bool {

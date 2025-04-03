@@ -23,7 +23,7 @@ import (
 	"github.com/casdoor/casdoor/i18n"
 	"github.com/casdoor/casdoor/idp"
 	"github.com/casdoor/casdoor/util"
-	"github.com/xorm-io/core"
+	"xorm.io/core"
 )
 
 const (

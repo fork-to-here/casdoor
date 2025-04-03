@@ -17,10 +17,10 @@ package object
 import (
 	"fmt"
 
+	xormadapter "github.com/OpenOnHere/xorm-adapter/v3"
 	"github.com/casbin/casbin/v2"
 	"github.com/casdoor/casdoor/util"
-	xormadapter "github.com/casdoor/xorm-adapter/v3"
-	"github.com/xorm-io/core"
+	"xorm.io/core"
 )
 
 type Enforcer struct {

@@ -19,7 +19,7 @@ import (
 
 	"github.com/beego/beego"
 	"github.com/casdoor/casdoor/util"
-	"github.com/xorm-io/core"
+	"xorm.io/core"
 )
 
 var (

@@ -26,7 +26,7 @@ import (
 	"github.com/casdoor/casdoor/idp"
 	"github.com/casdoor/casdoor/util"
 	jsoniter "github.com/json-iterator/go"
-	"github.com/xorm-io/core"
+	"xorm.io/core"
 )
 
 func GetUserByField(organizationName string, field string, value string) (*User, error) {

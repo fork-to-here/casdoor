@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/casdoor/casdoor/util"
-	"github.com/xorm-io/core"
+	"xorm.io/core"
 )
 
 // https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_usr_radatt/configuration/xe-16/sec-usr-radatt-xe-16-book/sec-rad-ov-ietf-attr.html

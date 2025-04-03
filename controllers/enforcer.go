@@ -18,10 +18,10 @@ import (
 	"encoding/json"
 	"fmt"
 
+	xormadapter "github.com/OpenOnHere/xorm-adapter/v3"
 	"github.com/beego/beego/utils/pagination"
 	"github.com/casdoor/casdoor/object"
 	"github.com/casdoor/casdoor/util"
-	xormadapter "github.com/casdoor/xorm-adapter/v3"
 )
 
 // GetEnforcers

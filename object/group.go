@@ -20,8 +20,8 @@ import (
 
 	"github.com/casdoor/casdoor/conf"
 	"github.com/casdoor/casdoor/util"
-	"github.com/xorm-io/builder"
-	"github.com/xorm-io/core"
+	"xorm.io/builder"
+	"xorm.io/core"
 )
 
 type Group struct {

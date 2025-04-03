@@ -25,7 +25,7 @@ import (
 
 	ldap "github.com/casdoor/ldapserver"
 
-	"github.com/xorm-io/builder"
+	"xorm.io/builder"
 )
 
 type AttributeMapper func(user *object.User) message.AttributeValue

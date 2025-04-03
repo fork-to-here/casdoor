@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"strings"
 
+	xormadapter "github.com/OpenOnHere/xorm-adapter/v3"
 	"github.com/casdoor/casdoor/conf"
 	"github.com/casdoor/casdoor/util"
-	xormadapter "github.com/casdoor/xorm-adapter/v3"
-	"github.com/xorm-io/core"
-	"github.com/xorm-io/xorm"
+	"xorm.io/core"
+	"xorm.io/xorm"
 )
 
 type Adapter struct {
@@ -169,6 +169,9 @@ func (adapter *Adapter) InitAdapter() error {
 				adapter.User, adapter.Password, adapter.Host, adapter.Port, adapter.Database)
 		case "sqlite3":
 			dataSourceName = fmt.Sprintf("file:%s", adapter.Host)
+		case "dm":
+			dataSourceName = fmt.Sprintf("user=%s password=%s host=%s port=%d sslmode=disable dbname=%s", adapter.User,
+				adapter.Password, adapter.Host, adapter.Port, adapter.Database)
 		default:
 			return fmt.Errorf("unsupported database type: %s", adapter.DatabaseType)
 		}

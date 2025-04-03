@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/xorm-io/xorm"
+	"xorm.io/xorm"
 )
 
 type Database struct {

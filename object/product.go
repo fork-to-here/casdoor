@@ -22,7 +22,7 @@ import (
 	"github.com/casdoor/casdoor/pp"
 
 	"github.com/casdoor/casdoor/util"
-	"github.com/xorm-io/core"
+	"xorm.io/core"
 )
 
 type Product struct {

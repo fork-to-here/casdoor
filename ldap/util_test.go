@@ -8,7 +8,7 @@ import (
 	ber "github.com/go-asn1-ber/asn1-ber"
 	goldap "github.com/go-ldap/ldap/v3"
 	"github.com/lor00x/goldap/message"
-	"github.com/xorm-io/builder"
+	"xorm.io/builder"
 )
 
 func args(exp ...interface{}) []interface{} {
