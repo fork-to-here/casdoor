@@ -220,7 +220,7 @@ func createDatabaseForPostgres(driverName string, dataSourceName string, dbName 
 }
 
 func (a *Ormer) CreateDatabase() error {
-	if a.driverName == "postgres" {
+	if a.driverName == "postgres" || a.driverName == "dm" {
 		return nil
 	}
 

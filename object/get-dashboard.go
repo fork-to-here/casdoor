@@ -39,7 +39,7 @@ func GetDashboard(owner string) (*map[string][]int64, error) {
 	dashboardMap := sync.Map{}
 	tableNames := []string{"organization", "user", "provider", "application", "subscription", "role", "group", "resource", "cert", "permission", "transaction", "model", "adapter", "enforcer"}
 
-	time30day := time.Now().AddDate(0, 0, -30)
+	time30day := time.Now().AddDate(0, 0, -30).Format("2006-01-02T15:04:05-07:00")
 	var wg sync.WaitGroup
 	var err error
 	tableNamePrefix := conf.GetConfigString("tableNamePrefix")

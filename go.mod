@@ -3,9 +3,9 @@ module github.com/casdoor/casdoor
 go 1.21
 
 require (
-	gitee.com/chunanyong/dm v1.8.14
+	gitee.com/chunanyong/dm v1.8.19
 	github.com/Masterminds/squirrel v1.5.3
-	github.com/OpenOnHere/xorm-adapter/v3 v3.1.3
+	github.com/OpenOnHere/xorm-adapter/v3 v3.1.4
 	github.com/alexedwards/argon2id v0.0.0-20211130144151-3585854a6387
 	github.com/alibabacloud-go/darabonba-openapi/v2 v2.1.4
 	github.com/alibabacloud-go/facebody-20191230/v5 v5.1.2
