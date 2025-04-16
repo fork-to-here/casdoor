@@ -19,6 +19,7 @@ bin/
 .idea/
 *.iml
 .vscode/settings.json
+**/.DS_Store
 
 tmp/
 tmpFiles/
