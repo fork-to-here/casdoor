@@ -1,4 +1,5 @@
 <h1 align="center" style="border-bottom: none;">📦⚡️ Casdoor</h1>
+<h3 align="center" > 信创适配版Casdoor，已支持达梦数据库</h3>
 <h3 align="center">An open-source UI-first Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA and RADIUS</h3>
 <p align="center">
   <a href="#badge">
